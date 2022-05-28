@@ -28,3 +28,4 @@ jobs:
           server: www.epcombb.org
           username: ${{ secrets.LOGIN }}
           password: ${{ secrets.PASSWORD }}
+          server-dir: /public_html/b07
