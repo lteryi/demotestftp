@@ -26,5 +26,5 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: www.epcombb.org
-          username: ${{ secrets.login }}
-          password: ${{ secrets.ftp_password }}
+          username: ${{ secrets.LOGIN }}
+          password: ${{ secrets.PASSWORD }}
